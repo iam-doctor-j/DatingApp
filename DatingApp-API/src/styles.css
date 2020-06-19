@@ -16,6 +16,11 @@ button:disabled {
   border-color: black;
 }
 
+a.disabled-link {
+  pointer-events: none;
+  cursor: default;
+}
+
 /* .tab-panel {
   border: 1px solid #ddd;
   padding: 10px;
